@@ -1,0 +1,14 @@
+// schemas/showType.ts
+export default {
+    name: 'showType',
+    type: 'document',
+    title: 'Show Type',
+    fields: [
+      {
+        name: 'name',
+        type: 'string',
+        title: 'Type',
+      }
+    ]
+  }
+  
