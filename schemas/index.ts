@@ -1,11 +1,13 @@
-import comedyEvent from './comedyEvent';
+import comedyShow from './comedyShow';
+import showTime from './showTime';
 import comedyPromoter from './comedyPromoter';
 import comedyVenue from './comedyVenue';
 import comedian from './comedian';
 import showType from './showType';
 
 export const schemaTypes = [
-  comedyEvent,
+  comedyShow,
+  showTime,
   comedyPromoter,
   comedyVenue,
   comedian,

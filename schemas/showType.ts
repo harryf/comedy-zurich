@@ -8,7 +8,13 @@ export default {
         name: 'name',
         type: 'string',
         title: 'Type',
-      }
+      },
+      {
+        name: 'description',
+        title: 'Description',
+        type: 'array', 
+        of: [{type: 'block'}],
+      },
     ]
   }
   
